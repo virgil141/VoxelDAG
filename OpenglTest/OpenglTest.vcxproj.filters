@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\texture">
+      <UniqueIdentifier>{9a7ba640-02da-451a-9716-fc8665104f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\shader">
+      <UniqueIdentifier>{23e704f6-fb32-43d6-99a8-d0365e2ea80d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\model">
+      <UniqueIdentifier>{5cbc3b97-2b25-4ee0-81c4-c6d1facb4372}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\3rdPartyLib\glad\src\glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="voxeltest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader_s.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\Texture\awesomeface.png">
+      <Filter>资源文件\texture</Filter>
+    </Image>
+    <Image Include="resource\Texture\container.jpg">
+      <Filter>资源文件\texture</Filter>
+    </Image>
+    <Image Include="resource\Texture\data.tga">
+      <Filter>资源文件\texture</Filter>
+    </Image>
+    <Image Include="resource\Texture\test.tga">
+      <Filter>资源文件\texture</Filter>
+    </Image>
+    <Image Include="resource\Texture\wall.jpg">
+      <Filter>资源文件\texture</Filter>
+    </Image>
+    <Image Include="resource\Texture\container2.png">
+      <Filter>资源文件\texture</Filter>
+    </Image>
+    <Image Include="resource\Texture\container2_specular.png">
+      <Filter>资源文件\texture</Filter>
+    </Image>
+    <Image Include="resource\Model\arm_dif.png">
+      <Filter>资源文件\model</Filter>
+    </Image>
+    <Image Include="resource\Model\arm_showroom_ddn.png">
+      <Filter>资源文件\model</Filter>
+    </Image>
+    <Image Include="resource\Model\arm_showroom_spec.png">
+      <Filter>资源文件\model</Filter>
+    </Image>
+    <Image Include="resource\Model\body_dif.png">
+      <Filter>资源文件\model</Filter>
+    </Image>
+    <Image Include="resource\Model\body_showroom_ddn.png">
+      <Filter>资源文件\model</Filter>
+    </Image>
+    <Image Include="resource\Model\body_showroom_spec.png">
+      <Filter>资源文件\model</Filter>
+    </Image>
+    <Image Include="resource\Model\glass_ddn.png">
+      <Filter>资源文件\model</Filter>
+    </Image>
+    <Image Include="resource\Model\glass_dif.png">
+      <Filter>资源文件\model</Filter>
+    </Image>
+    <Image Include="resource\Model\hand_dif.png">
+      <Filter>资源文件\model</Filter>
+    </Image>
+    <Image Include="resource\Model\hand_showroom_ddn.png">
+      <Filter>资源文件\model</Filter>
+    </Image>
+    <Image Include="resource\Model\hand_showroom_spec.png">
+      <Filter>资源文件\model</Filter>
+    </Image>
+    <Image Include="resource\Model\helmet_diff.png">
+      <Filter>资源文件\model</Filter>
+    </Image>
+    <Image Include="resource\Model\helmet_showroom_ddn.png">
+      <Filter>资源文件\model</Filter>
+    </Image>
+    <Image Include="resource\Model\helmet_showroom_spec.png">
+      <Filter>资源文件\model</Filter>
+    </Image>
+    <Image Include="resource\Model\leg_dif.png">
+      <Filter>资源文件\model</Filter>
+    </Image>
+    <Image Include="resource\Model\leg_showroom_ddn.png">
+      <Filter>资源文件\model</Filter>
+    </Image>
+    <Image Include="resource\Model\leg_showroom_spec.png">
+      <Filter>资源文件\model</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\Shader\FragmentShader.frag">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="resource\Shader\lamp.frag">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="resource\Shader\lamp.vert">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="resource\Shader\VertexShader.vert">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="resource\Model\nanosuit.blend">
+      <Filter>资源文件\model</Filter>
+    </None>
+    <None Include="resource\Model\nanosuit.mtl">
+      <Filter>资源文件\model</Filter>
+    </None>
+    <None Include="resource\Shader\model_loading.vert">
+      <Filter>资源文件\shader</Filter>
+    </None>
+    <None Include="resource\Shader\model_loading.frag">
+      <Filter>资源文件\shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="resource\Model\LICENSE.txt">
+      <Filter>资源文件\model</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
